@@ -1,6 +1,5 @@
 import cupy as np
 import tkinter as tk
-import tkinter as tk
 import time
 import math
 import random
@@ -15,7 +14,7 @@ from environment import block_env as benv
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import gym
-import copy
+
 
 def sign(x):
     if x>0:
