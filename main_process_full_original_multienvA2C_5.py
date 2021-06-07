@@ -371,7 +371,6 @@ class Environment:
                 #全てTensor
                 rollouts.save(current_obs, actions, reward, masks)
             #Advanced-step終了後の更新
-            #with torch.no_grad():
             next_value = self.actor_critic.get_value(rollouts.observations[-1])
             rollouts.compute_returns(next_value)
             brain.update(rollouts)
