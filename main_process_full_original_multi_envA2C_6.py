@@ -16,7 +16,7 @@ from environment import block_env as benv
 
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import gym
+#import gym
 
 
 GAMMA=0.995
