@@ -19,16 +19,14 @@ import matplotlib.animation as animation
 #import gym
 
 
-GAMMA=0.995
-NUM_EPISODES=100000
-
-NUM_PROCESSES=32
+GAMMA = 0.995
+NUM_EPISODES = 100000
+NUM_PROCESSES = 32
 NUM_ADVANCED_STEP = 10
 
-learning_rate = 0.0001/4
+learning_rate = 0.0001
 
 
-max_grad_norm=0.5
 class Adam:
     def __init__(self, lr=0.001, beta1=0.9, beta2=0.999):
         self.lr = lr
