@@ -1,5 +1,6 @@
 # full_original_DQL
-This repository is a compilation of my own work on deep reinforcement learning.
-If you just want to see the results, please see the gif video.
+このレポジトリは完全自作の深層強化学習用プログラムです。学習環境のブロック崩しも自作しました。
+ゲームのプレイは「breakout_for_play.py」を動かせば出来ます。標準ライブラリしか使っていないので、ゲームプレイはPython3の環境のみで大丈夫です。
+学習用メインコードは「main_process_full_original_multi_envA2C_7.py」です。これはGPU環境を前提にしています。
 
-The code on main process is one that starts with name "main~".
+結果のみ興味がある方は、gif動画を閲覧していただくと、AIがブロック崩しを実行しているところが見れます。
